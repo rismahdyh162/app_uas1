@@ -64,12 +64,12 @@ class _LoginPageState extends State<LoginPage> {
                   width: 80,
                   height: 80,
                   decoration: BoxDecoration(
-                    color: Colors.red[100],
+                    color: Colors.blue[100],
                     shape: BoxShape.circle,
                   ),
                   child: const Icon(
                     Icons.local_florist,
-                    color: Color(0xFFDE302F),
+                    color: Colors.blue,
                     size: 40,
                   ),
                 ),
@@ -79,7 +79,7 @@ class _LoginPageState extends State<LoginPage> {
                   style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
-                    color: Color(0xFFDE302F),
+                    color: Colors.blue,
                   ),
                   textAlign: TextAlign.center,
                 ),
@@ -153,7 +153,7 @@ class _LoginPageState extends State<LoginPage> {
                 const SizedBox(height: 24),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color(0xFFDE302F),
+                    backgroundColor: Colors.blue,
                     minimumSize: const Size(double.infinity, 50),
                   ),
                   onPressed: () {
@@ -188,7 +188,7 @@ class _LoginPageState extends State<LoginPage> {
                         "Register",
                         style: TextStyle(
                           fontSize: 14,
-                          color: Color(0xFFDE302F),
+                          color: Colors.blue,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
